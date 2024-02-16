@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!--Con eso indicamos la version de html, al hacerlo usamos la ultima version.-->
+<html lang="es">
+    <head>
+        <!--La informacion de aqui no se muestra. Se puede agregar titulos, metadatos, etc-->
+        <title>Mi primera web</title>
+    </head>
+    <body>
+        <!--Este es el cuerpo de la pagina web-->
+
+        <!--La h define relevancia de mi web-->
+        <h1>Titulo de mi web</h1> <!--La h1 solo debe haber uno, es el mas importante-->
+        <h2>Bienvenidos a mi web</h2>
+
+        <!--Parrafos-->
+        <p>
+            Hola que tal desde mi computadora!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure mollitia eveniet? <br/> Rerum blanditiis quas eveniet minima repudiandae, <br/>eum ratione consequatur! 
+            Cumque tempore architecto animi natus officiis dignissimos beatae cum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Totam inventore impedit incidunt reiciendis quaerat expedita. Labore, eos! Aliquid quis excepturi molestias dignissimos necessitatibus, recusandae ad porro, consequuntur dolorem ipsa velit!
+        </p>
+        <hr/>
+        <h3>Tercer encabezado de la pagina</h3>
+    
+        <p>
+            Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit.</strong> 
+            Totam inventore impedit <em>incidunt reiciendis quaerat expedita.</em> Labore, eos! 
+            <span id="resaltado" class="rojo amarillo">Aliquid quis excepturi molestias dignissimos</span> necessitatibus, 
+            <i>recusandae ad porro</i>, consequuntur dolorem ipsa velit!
+        </p>
+        <p>
+            <blockquote>ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam excepturi, deleniti quisquam similique aut accusamus magni ullam ut sunt nesciunt temporibus libero, ab alias velit nobis expedita labore quibusdam?</blockquote>
+        </p>
+
+        <h3>Listado de frutas</h3>
+        <ul>
+            <li>Manzana</li>
+            <li>Naranja</li>
+            <li>Pera</li>
+            <li>Mandarina</li>
+        </ul>
+
+        <h3>Listado de equipos de futbol</h3>
+        <ol>
+            <li>River</li>
+                <ul>
+                    <li>Opcion 1</li>
+                    <li>Opcion 2</li>
+                    <li>Opcion 3</li>
+                </ul>
+            <li>Talleres de cordoba</li>
+            <li>Rosario central</li>
+            <li>Aldosivi</li>
+        </ol>
+        <hr/>
+        
+        <h2>Imagenes en HTML</h2>
+        <img src="images/png-transparent-logo-html-html5-thumbnail.png" width="255px" alt="Descripcion de la imagen" title="Titulo de la imagen" />
+
+        <h3>Representacion de tabla</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Ian</td>
+                <td>Fernandez</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Merceditas</td>
+                <td colspan="2">Fernandez</td>
+            </tr>
+        </table>
+
+        <h3>Formulario</h3>
+        <form>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre.."/>
+            </p>
+            <p>
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion"></textarea>
+            </p>
+
+            <input type="radio" name="genero" value="hombre"> Hombre </br>
+            <input type="radio" name="genero" value="mujer"> Mujer </br>
+            <input type="radio" name="genero" value="ninguno"> Ninguno </br>
+
+            <select name="genero2">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="ninguno">Ninguno</option>
+            </select>
+
+            <input type="submit" value="Enviar formulario">
+        </form>
+
+
+    </body>
+
+
+</html>
