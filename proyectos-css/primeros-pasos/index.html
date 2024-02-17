@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Proyecto en CSS</title>
+        <!--Los estilos van en head-->
+        <!--
+            Sin embargo es mas practico tenerlo en un archivo separado
+            <style>
+                h1 {
+                    color: red;
+                    font-size: 45px;
+                    text-shadow: 0px 0px 10px black;
+                }
+            </style>
+        -->
+
+        <!--Vinculamos CSS-->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    </head>
+    <body>
+        <h1 id="titulo">Proyecto en CSS</h1>
+        <ul id="menu">
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Temario</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JS</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Resenas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <div id="descripcion">
+            <h2>Descripcion del curso</h2>
+            <p class="parrafo parrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, sint aspernatur dolorum, est optio voluptas cum temporibus nulla eveniet fuga exercitationem vitae, error maxime nobis non mollitia cumque asperiores perferendis!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, sint aspernatur dolorum, est optio voluptas cum temporibus nulla eveniet fuga exercitationem vitae, error maxime nobis non mollitia cumque asperiores perferendis!</p>
+            <p class="parrafo parrafo3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, sint aspernatur dolorum, est optio voluptas cum temporibus nulla eveniet fuga exercitationem vitae, error maxime nobis non mollitia cumque asperiores perferendis!</p>
+        </div>
+
+        <div id="usuario">
+            <form>
+                <label>Nombre</label>
+                <input type="text" name="nombre"/>
+
+                <label>Apellidos</label>
+                <input type="text" name="apellidos"/>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <footer>
+            Todos los derechos reservados &copy; <a href="#">ianklebold</a> 
+        </footer>    
+    </body>
+
+</html>

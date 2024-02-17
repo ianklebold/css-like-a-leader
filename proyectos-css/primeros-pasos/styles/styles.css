@@ -1,0 +1,119 @@
+/*
+######## SELECTORES ###########
+*/
+
+/*Selector Universal*/
+/*
+Es basicamente tomar un elemento o todos del html y aplicarle un estilo
+*/
+
+/*
+    Para estilos generales usamos * el cual aplica a todos los elementos
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selector de etiqueta*/
+/*
+    Permite tomar todos los elementos del html indicados a partir de su
+    etiqueta. 
+    
+    Por ejemplo para todos los h1 quiero un fondo rojo,
+    con letras blancas y un padding de 10px.
+*/
+h1{
+    background: red !important;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+/*En este caso seleccionamos el elemento enlace dentro del footer*/
+footer a{
+    color: red;
+}
+
+/*Selector de id*/
+/*
+    Permite tomar un elemento a partir del id. Los ids son unicos
+*/
+/*
+    Para compartir estilos podemos hacer lo siguiente
+
+    Es aplicable a todo tipo de selector!
+*/
+#descripcion,
+#titulo
+{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#titulo{
+    border: 2px dashed white;
+}
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+/*Selector de clase*/
+
+/*
+    Permite tomar multiples elementos a partir de una clase
+*/
+
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.parrafo1,.parrafo3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo3{
+    background-color: orange;
+}
+
+/*Selector de atributo*/
+/*
+    Permite tomar a aquellos elementos que contienen cierto atributo
+    Son muy utilizados en formularios
+*/
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*Selector de hijo*/
+#menu > li > a{
+    color: red;
+}
