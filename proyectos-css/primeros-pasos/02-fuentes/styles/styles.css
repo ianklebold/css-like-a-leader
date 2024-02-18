@@ -1,0 +1,39 @@
+/*Importando Fuente Custom*/
+@font-face { 
+    font-family: MansalvaFuenteCustom;
+    src: url(fonts/Mansalva/Mansalva-Regular.ttf);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif; /*Fuente de la letra*/
+    font-style: italic; /*Estilo de la fuente*/
+    text-transform: uppercase; /*Tipo de fuente, minuscula, mayuscula, etc*/
+
+    /*Colores*/
+    /*Colores del sistema*/
+    color: mediumpurple;
+    
+}
+
+h2{
+    font-size: 45px;
+    font-family: MansalvaFuenteCustom;
+    /*Colores hexadecimales - siempre arranca con # */
+    color: #ccc;
+}
+
+h3{
+    font-family: "Comic Sans MS";
+    font-size: 25px; /*1em son 16 px*/
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold; /*Grosor de la letra, tambien puede ser en px*/
+
+    /*Colores RGB - Rojo, verde y azul*/
+    color: rgb(9, 32, 207);
+
+    /*Colores RGBA - Rojo, verde, azul y transparencia*/
+}
