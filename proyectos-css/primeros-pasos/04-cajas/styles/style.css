@@ -1,0 +1,43 @@
+/*Eliminamos padding y margin inicial de la pagina*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cajas{
+    max-width: 1020px;
+    border: 1px solid black;
+}
+
+.caja{
+    width: 250px; /*Anchura de la caja*/
+    height: 250px; /*Altura de la caja*/
+    background-color: aqua;
+
+
+    /*Bordes*/
+    border: 10px solid red; /*El borde la caja se genera despues del limite de la caja*/
+
+    /*Margenes*/ 
+    margin: 15px; /*Margen a top, rigth, bottom e left*/
+    /*margin: 15px 15px 15px 15px;*/
+
+    padding: 20px; /*Margenes interno - Al limite de la caja le agrega este margen*/ 
+
+    /*Float*/
+    float: left;
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 230px; /*Se alinea 230px con respecto a la parte superior de la caja*/
+}
+
+.clearfix{
+    float: none; /*No aplique ningun flotante*/
+    clear: both; /*Limpie los flotantes a izquierda y derecha*/
+}
+
