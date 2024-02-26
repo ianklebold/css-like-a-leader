@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general{
+    width: 1200px;
+    margin: 0px auto; /*Para centrar la caja*/
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: #BFD3DC;
+    color: #000;
+    text-align: center;
+    line-height: 90px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#menu{
+    background-color: #ccc;
+}
+
+#menu ul li{
+    display: block;
+    float: left;
+    
+    border-right: 1px solid #eee;
+}
+
+#menu ul li a{
+    color: #444;
+
+    /*Para que hacer mas grande la botonera y adenmas que cada elemento se considere un enlace*/
+    padding: 15px;
+    display: block; 
+}
+
+#menu ul li:hover{
+    background-color: #99B8C7;
+    cursor: pointer; /*Para que el cursos tome a todo el elemento como enlace y no solo la palabra*/
+}
+
+/*Hover es una psudoclase aplicada al enlace en este caso*/
+/*Cuando el curso pasa por encima cambia el color*/
+#menu ul li a:hover{
+    color: white;
+}
+
+#contenido{
+    float: left;
+    width: 69%;
+    border: 1px solid black;
+}
+
+#lateral{
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    min-height: 500px;
+    text-align: center;
+}
+
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: #ccc;
+    border: 1px solid gray;
+    color: white;
+    float: left;
+    margin: 2.5%;
+    text-align: center;
+    line-height: 250px;
+    color: #444;
+
+    /*Bordes - Bordes redondeados*/
+    border-radius: 50px 10px 4px 61px;
+
+}
+
+#contenido .caja:hover{
+    /*Sombras - Eje x, Eje y, difuminado y color de sombra*/
+    box-shadow: 0px 0px 15px gray;
+}
+
+#contenido > h2{
+    text-align: center;
+    padding: 14.5px;
+
+    /*Sombras - Eje x, Eje y, difuminado y color de sombra*/
+    text-shadow: 5px 1px 2px #BFD3DC;
+}
+
+#footer{
+    width: 100%;
+    background: #BFD3DC;
+    text-align: center;
+    color: #444;
+    height: 55px;
+    line-height: 55px;
+    border-top: 1px solid #ccc;
+}
