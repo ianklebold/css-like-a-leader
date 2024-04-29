@@ -1,0 +1,58 @@
+@media(max-width: 1280px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .wrap #info #banner h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .card{
+        width: 15%;
+        margin: 2.6%;
+    }
+
+    .card p{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #articles{
+        width: 50%;
+    }
+
+    #articles article{
+        width: 95%;
+    }
+
+}
+/*Proximo nivel de corte 815*/
+@media(max-width: 815px){
+    #header{
+        height: 300px;
+        width: 100%;
+    }
+
+    #menu{
+        float: left;
+    }
+
+    .card .description{
+        display: none;
+    }
+
+    .card .category{
+        font-size: 15px;
+    }
+
+    .card{
+        height: auto;
+    }
+
+
+
+}
